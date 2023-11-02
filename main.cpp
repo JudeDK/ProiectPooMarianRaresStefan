@@ -17,7 +17,7 @@ public:
         this->profesor = profesor;
     }
 
-    [[nodiscard]] string getnume() const {
+    string getnume() const {
         return this->nume;
     }
 
@@ -25,7 +25,7 @@ public:
         this->nume = name;
     }
 
-    [[nodiscard]] string getprofesor() const {
+    string getprofesor() const {
         return this->profesor;
     }
 
@@ -76,7 +76,7 @@ public:
         }
     }
 
-    [[nodiscard]] string getnume() const {
+    string getnume() const {
         return this->nume;
     }
 
@@ -84,7 +84,7 @@ public:
         this->nume = name;
     }
 
-    [[nodiscard]] string getcnp() const {
+    string getcnp() const {
         return this->cnp;
     }
 
@@ -97,7 +97,7 @@ public:
             return false;  // CNP invalid
         }
     }
-    [[nodiscard]] double getmedie() const {
+    double getmedie() const {
         return medie;
     }
     bool setmedie(double med) {
@@ -147,26 +147,26 @@ public:
         this->numarprofesori=numarprofesori;
         this->numarstudenti=numarstudenti;
     }
-    [[nodiscard]] string getnume() const {
+    string getnume() const {
         return this->nume;
     }
 
     void setnume(const string &name) {
         this->nume = name;
     }
-    [[nodiscard]] int getnumarprofesori ()const{
+    int getnumarprofesori ()const{
         return this->numarprofesori;
     }
     int setnumarprofesori(int x) {
         return this->numarprofesori=x;
     }
-    [[nodiscard]] int getnumarmaterii ()const{
+    int getnumarmaterii ()const{
         return this->numarmaterii;
     }
     int setnumarmaterii(int x) {
         return this->numarmaterii=x;
     }
-    [[nodiscard]] int getnumarstudenti ()const{
+    int getnumarstudenti ()const{
         return this->numarstudenti;
     }
     int setnumarstudenti(int x) {
