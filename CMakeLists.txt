@@ -101,8 +101,6 @@ add_executable(${PROJECT_NAME} main.cpp
         src/StudentBursier.cpp
         headers/Teachers.h
         src/Teachers.cpp
-        headers/ExceptionClasa.h
-        src/ExceptionClasa.cpp
         headers/Curs.h
         src/Curs.cpp
 )

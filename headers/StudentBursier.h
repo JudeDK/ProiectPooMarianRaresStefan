@@ -8,11 +8,9 @@ private:
     int bursa;
 public:
     ~StudentBursier()=default;
-    explicit StudentBursier(const int &local_bursa=0);
-    int getbursa() const;
-    void setbursa(int &local_bursa);
-    virtual void citires()override;
-    virtual void afisares()override;
+    explicit StudentBursier(const std::string &local_name, const std::string &local_cnp,double local_average,const int local_bursa);
+/*    int getbursa() const;
+    void setbursa(int &local_bursa);*/
     friend std::ostream &operator<<(std::ostream &out, const StudentBursier &s);
     friend std::istream &operator>>(std::istream &is, StudentBursier &s);
 };
